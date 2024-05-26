@@ -5,7 +5,7 @@ class Cmagic < Formula
   desc ""
   homepage ""
   url "https://github.com/imajoriri/codemagic-builder/archive/refs/tags/0.0.1.tar.gz"
-  sha256 "169af048dc476dcd7345310d55a86c36a63b5c17f64d1b46f06de85ad8ecdecc"
+  sha256 "15fc315b640277f927a701991114352d1262caa5822103eddea450e0af4b4b52"
   license ""
 
   # depends_on "cmake" => :build
@@ -15,7 +15,7 @@ class Cmagic < Formula
     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
     # system "./configure", "--disable-silent-rules", *std_configure_args
     # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
-    bin.install "codemagic_builder"
+    bin.install "cmagic"
   end
 
   test do
