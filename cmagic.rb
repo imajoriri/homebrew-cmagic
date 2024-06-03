@@ -1,9 +1,9 @@
 class Cmagic < Formula
   desc ""
   homepage "https://github.com/imajoriri/codemagic-builder"
-  url "https://github.com/imajoriri/codemagic-builder/archive/refs/tags/v0.0.2.tar.gz"
-  sha256 "a4fe4c99081fe75ec6f5c3c9d51225830d5b424fa01b713dfde1e2cd5070620f"
-  version "0.0.2"
+  url "https://github.com/imajoriri/codemagic-builder/archive/refs/tags/v0.0.3.tar.gz"
+  sha256 "cf910efe915ddfcc7cede380a0a560da62b0f1deffdeeb361661d4b53b4d6a3f"
+  version "0.0.3"
   license ""
 
   def install
